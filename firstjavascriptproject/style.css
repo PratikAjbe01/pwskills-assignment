@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background: rgb(225, 112,100);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.card-body{
+    background: #fff;
+    padding:25px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 15px;
+    font-size: 70px;
+}
+.card-btn button{
+    padding: 10px 35px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #262626;
+    cursor: pointer;
+    margin: 0 10px;
+}
+#dec:hover{
+    background-color: yellow;
+    color: white;
+}
+#inc:hover{
+    background-color: green;
+    color: white;
+}
+#reset:hover{
+    background-color: red;
+    color: white;
+}
